@@ -18,10 +18,8 @@ Create a free account on https://cayenne.mydevices.com
 Add a new device and record the username, password, and clientID<br>
 Substitute it in the proper location in the code<br>
 
-You may need to add the ESP8266 board to the Arduino IDE.<br>
+Add the ESP8266 board to the Arduino IDE.<br>
 Use the board library esp8266 from http://arduino.esp8266.com/stable/package_esp8266com_index.json
-
-Adapted from: https://randomnerdtutorials.com/how-to-install-esp8266-board-arduino-ide/
 
 Select the board from Tools/Board/Board Manager
 
@@ -41,4 +39,3 @@ Adafruit Unified Sensor</pre>
 Enter your wifi SSID & wifiPassword into the code
 
 Push to the device using the Arduino IDE
-
