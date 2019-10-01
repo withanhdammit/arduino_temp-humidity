@@ -1,4 +1,5 @@
-# arduino_thermohygrometer
+# arduino_temp-humidity
+
 Uses the WeMos D1 R2 board and a DHT22 thermo-hygrometer sensor.  The boards are available all over the internet
 Amazon's choice for the WeMos D1 R2
 https://www.amazon.com/dp/B01C6Y5SKY
@@ -13,7 +14,7 @@ Connect the DHT22 + to a 3.3V pin
 Connect the DHT22 - to a GND pin
 Connect the DHT22 data to pin 8 on the D1 board
 
-Create a free account on https://iotinabox.mydevices.com/home/signup
+Create a free account on https://cayenne.mydevices.com/home/signup
 
 Add a new device and record the username, password, and clientID
 Substitute it in the proper location in the code
