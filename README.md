@@ -1,8 +1,8 @@
 # arduino_temp-humidity
 
-Uses the WeMos D1 R2 board and a DHT22 thermo-hygrometer sensor.  The boards are available all over the internet:
+Uses the WeMos D1 board (full size) and a DHT22 thermo-hygrometer sensor.  The boards are available all over the internet:
 
-Amazon's choice for the WeMos D1 R2
+Amazon's choice for the WeMos D1 (is actually D1 R2)
 https://www.amazon.com/dp/B01C6Y5SKY
 
 Amazon's choice for the DHT22
@@ -20,21 +20,25 @@ Create a free account on https://cayenne.mydevices.com
 Add a new device and record the username, password, and clientID
 Substitute it in the proper location in the code
 
-You may need to add the ESP8266 board to the Arduino IDE, a good tutorial is here:
+You may need to add the ESP8266 board to the Arduino IDE.  Use the board library esp8266 from http://arduino.esp8266.com/stable/package_esp8266com_index.json
+
+Adapted from:
 https://randomnerdtutorials.com/how-to-install-esp8266-board-arduino-ide/
 
+Select the board from Tools/Board/Board Manager
+
 Set the board options to:
-Board:        WeMos D1
+Board:        WeMos D1 R1
 Upload speed: 115200
 CPU freq:     80 MHz
 Flash size:   4M (3M SPIFFS)
 Upload using: Serial
 
-You'll need these libraries:
+You'll need these libraries (Tools/Manage Libraries):
+WiFi (Built-In)
 CayenneMQTT
-ESP8266WiFi
-DHT_sensor_library
-Adafruit_Unified_Sensor
+DHT sensor library
+Adafruit Unified Sensor
 
 Enter your wifi SSID & wifiPassword into the code
 
