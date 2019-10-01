@@ -2,14 +2,12 @@
 
 Uses the WeMos D1 board (full size) and a DHT22 thermo-hygrometer sensor.  The boards are available all over the internet:
 
-Amazon's choice for the WeMos D1 (is actually D1 R2)
-https://www.amazon.com/dp/B01C6Y5SKY
-
-Amazon's choice for the DHT22
-https://www.amazon.com/dp/B0795F19W6
-
-Amazon's choice for breadboard jumpers
-https://www.amazon.com/dp/B01L5UKAPI
+Amazon's choice for the WeMos D1 (is actually D1 R2)<br>
+https://www.amazon.com/dp/B01C6Y5SKY<br>
+Amazon's choice for the DHT22 <br>
+https://www.amazon.com/dp/B0795F19W6<br>
+Amazon's choice for breadboard jumpers<br>
+https://www.amazon.com/dp/B01L5UKAPI<br>
 
 Connect the DHT22 + to a 3.3V pin
 Connect the DHT22 - to a GND pin
