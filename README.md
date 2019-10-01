@@ -1,12 +1,11 @@
 # arduino_temp-humidity
 
-Uses the WeMos D1 R2 board and a DHT22 thermo-hygrometer sensor.  The boards are available all over the internet
+Uses the WeMos D1 R2 board and a DHT22 thermo-hygrometer sensor.  The boards are available all over the internet:
+
 Amazon's choice for the WeMos D1 R2
 https://www.amazon.com/dp/B01C6Y5SKY
-
 Amazon's choice for the DHT22
 https://www.amazon.com/dp/B0795F19W6
-
 Amazon's choice for breadboard jumpers
 https://www.amazon.com/dp/B01L5UKAPI
 
